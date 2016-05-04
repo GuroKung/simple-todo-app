@@ -10,3 +10,9 @@ Simple todo app with angularJS, ui-router, simple http-server
 or
 
 > http-server
+
+then open
+
+> localhost:8080
+
+in your browser
