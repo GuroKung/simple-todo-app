@@ -6,7 +6,7 @@ Simple todo app with angularJS, ui-router, simple http-server and bootstrap
 On first use   
 run
 
-> npm install
+> npm install http-server -g
 
 # How to run
 
