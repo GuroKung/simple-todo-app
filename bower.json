@@ -1,0 +1,21 @@
+{
+  "name": "simeple-todo-app",
+  "description": "Simple todo app with angularJS, ui-router, simple http-server and bootstrap",
+  "main": "index.js",
+  "authors": [
+    "GuroKung <greenblood11@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/GuroKung/simple-todo-app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular-ui-router": "^0.2.18"
+  }
+}

@@ -1,15 +1,24 @@
 {
   "name": "simeple-todo-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple todo app with angularJS, ui-router, simple http-server and bootstrap",
   "main": "index.js",
   "scripts": {
-    "start" : "http-server",
+    "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.5.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuroKung/simple-todo-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GuroKung/simple-todo-app/issues"
+  },
+  "homepage": "https://github.com/GuroKung/simple-todo-app#readme"
 }
