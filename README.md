@@ -5,7 +5,7 @@ Simple todo app with angularJS, ui-router, simple http-server and bootstrap
 
 # On first use  
 run
-> npm install http-server bower -g
+> npm install http-server bower -g  
 > bower install
 
 # How to run
