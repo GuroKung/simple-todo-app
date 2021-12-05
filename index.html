@@ -1,27 +1,28 @@
 <!doctype html>
 <html ng-app="todoApp">
-  <head>
+<head>
+    <title> WELCOME TO THE TODO APPLICATION!</title>
     <!-- CSS file -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="src/css/todo.css">
-  </head>
-  <body>
-    <!-- Import scripts -->
-    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body background="background_image.jpg">
+<!-- Import scripts -->
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <!-- App controller -->
-    <script src="src/js/controller/todo.js"></script>
-    <script src="src/js/route/route.js"></script>
+<!-- App controller -->
+<script src="src/js/controller/todo.js"></script>
+<script src="src/js/route/route.js"></script>
 
-    <!-- some navigation -->
-    <ul class="nav nav-pills">
+<!-- some navigation -->
+<ul class="nav nav-pills">
     <li role="presentation"><a ui-sref="home">Home</a></li>
-    <li role="presentation"><a ui-sref="changepage">Change Page</a></li>
-  </ul>
+    <li role="presentation"><a ui-sref="See to do list">See to do list</a></li>
+</ul>
 
-    <div ui-view></div>
-  </body>
+<div ui-view></div>
+</body>
 </html>
